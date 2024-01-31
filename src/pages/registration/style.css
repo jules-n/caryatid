@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+    height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+.container-reg {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.main-reg {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+}
+
+.personal-data-reg {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin-left: 8%;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.education-data-reg {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 6%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.for-submit-reg {
+    display: flex;
+    align-self: flex-end;
+    align-content: flex-end;
+    height: 10%;
+    margin-top: 5%;
+    margin-right: 3.9%;
+}
+
+#imageButton {
+    background-image: url('img/hand.svg'); /* Replace with your image path */
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 20em;
+    outline: none;
+    text-indent: -9999px;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.form-group {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+} 
+
+.form-group:first-child {
+    margin-top: 10%;
+}
+
+.form-group input {
+    border: none;
+    border-bottom: 1.5px solid #535353; /* Adds a solid bottom border - you can change color and thickness */
+    height: 1.8em; /* Increases the height of the input field */
+    font-size: medium;
+    font-family: 'KharkivTone';
+}
+
+.form-group input:focus {
+    outline: none;
+  }
+
+#check-btn-reg {
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #535353;
+    align-self: end;
+    margin-right: 8%;
+    margin-top: 6%;
+    border: none;
+    font-size: 400;
+    cursor: pointer;
+    width: 14em;
+    text-align: center;
+    height: 7%;
+    font: 400 16px Kharkiv Tone, sans-serif;
+    letter-spacing: 1.6px;
+}
+
+.diploma-data-reg {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.form-group-diploma {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.form-group-diploma input {
+    border: none;
+    border-bottom: 1.5px solid #535353; /* Adds a solid bottom border - you can change color and thickness */
+    height: 1.8em; /* Increases the height of the input field */
+    font-size: medium;
+    margin-top: 2%;
+}
+
+.form-group-diploma input:focus {
+    outline: none;
+}
+
+.form-group-studentticket input{
+    border: none;
+    border-bottom: 1.5px solid #535353; /* Adds a solid bottom border - you can change color and thickness */
+    height: 1.8em; /* Increases the height of the input field */
+    font-size: medium;
+    margin-top: 2%;
+}  
+
+.form-group-studentticket input:focus {
+    outline: none;
+  }
+
+.form-group-studentticket {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.form-group-course input{
+    border: none;
+    border-bottom: 1.5px solid #535353; /* Adds a solid bottom border - you can change color and thickness */
+    height: 1.8em; /* Increases the height of the input field */
+    font-size: medium;
+    margin-top: 2%;
+    width: 110%;
+}  
+
+.form-group-course input:focus {
+    outline: none;
+  }
+
+.form-group-course {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-top: 3%;
+}

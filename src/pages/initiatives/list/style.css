@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pagination {
+    align-self: flex-end;
+    margin-bottom: 2%;
+}
+.wrap-ini-content .pagination {
+    font: 400 20px KharkivTone, sans-serif;
+}
+
+.ini-page-wrap {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+
+.pagination button {
+    padding: 0;
+    margin-right: 4%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.ini-menu-read {
+    display: flex;
+    flex-direction: row;
+    height: 12.5%;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.ini-menu-read img {
+    height: 75.89%;
+    margin-top: 0.3%;
+    margin-left: 38px;
+    margin-bottom: 0.8%;
+}
+
+.menu-buttons-wrap-ini {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 37%;
+}
+
+.menu-buttons-wrap-ini button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1em;
+    margin-right: 3%;
+    font: 400 16px KharkivTone, sans-serif;
+    text-wrap:nowrap;
+}
+
+.ini-list {
+    height: 120vh;
+    overflow-y: scroll;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap-ini-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ini-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+    padding-left: 2%;
+    font-weight: lighter;
+    
+    letter-spacing: normal;
+    padding-right: 2%;
+}
+.ini-item p {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.ini-item-apply {
+    color: white;
+    border: none;
+    background-color: #038C8C;
+    width: 157px;
+    height: 31px;
+    margin-top: 2%;
+    font: 400 14px KharkivTone, sans-serif;
+    cursor: pointer;
+}

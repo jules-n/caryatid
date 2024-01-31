@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+
+.profile-user-read {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.profile-menu-read {
+    display: flex;
+    flex-direction: row;
+    height: 12.5%;
+    background-color: black;
+}
+
+.profile-menu-read img {
+    height: 75.89%;
+    margin-top: 0.8%;
+    margin-right: 32px;
+    margin-left: 73%;
+}
+
+#arrow-back {
+    background-image: url('img/arrow.svg');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 4em;
+    width: 5.75em;
+    outline: none;
+    text-indent: -9999px;
+    background-color: transparent;
+    align-self: center;
+    margin-left: 1.5%;
+    margin-right: 5%;
+}
+
+.status {
+    color: white;
+    background-color: black;
+    height: 20%;
+    border: none;
+    font-size: medium;
+    align-self: center;
+}
+
+.wrap-initiative-content-read {
+    display: flex;
+    flex-direction: row;
+    height: 88.5%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.initiative-name-read {
+    flex: 0 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-90deg);
+    transform-origin: center; 
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.initiative-content-read {
+    display: flex;
+    flex-direction: column;
+    flex: 80%;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+
+.initiative-content-read-description {
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#check-applications {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    width: 1%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.initiative-main-content-read {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    margin-top: -15%;
+}
+
+.initiative-link-content-read {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.initiative-content-header {
+    color: #038C8C;
+    margin-right: 1%;
+}
+
+.co-founder-agreement-manage {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: #038C8C;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.2em;
+    width: 37%;
+    align-self: flex-start;
+    text-align: start;
+    margin-left: 0%;
+    padding: 0;
+    font: 400 15px KharkivTone, sans-serif;
+    margin-bottom: 1%;
+}
+
+.participants-list {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 30%;
+    height: 40%;
+}
+
+.participants-list button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.2em;
+    align-self: flex-start;
+    text-align: start;
+    margin-left: 0%;
+    padding: 0;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+}
+
+.co-founder-agreement-manage-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Kharkiv Tone-Regular;
+    src: url(../../fonts/Kharkiv\ Tone.ttf);
+  }
+  html,
+  body {
+    height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  #root {
+    min-height: 100%;
+    
+    display: flex;
+    width: 100%;
+  }
+
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #233537, #26343a, #2b333c, #30323b, #353139, #383139, #3a3238, #3c3237, #3e3438, #40363a, #41383b, #433a3d);
+  }
+  .div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+  }
+  .img {
+    object-fit: contain;
+    object-position: center;
+    width: 307px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-2 {
+    background-color: #000;
+    align-self: end;
+    display: flex;
+    width: 560px;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 106px 110px 0 0;
+    padding: 11px 50px 11px 20px;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 40px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-3 {
+    justify-content: center;
+    color: #fff;
+    text-align: right;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    align-self: center;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    font: 400 28px Kharkiv Tone, sans-serif;
+  }
+  .div-4 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    min-height: 442px;
+    margin-top: 8px;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    padding: 44px 60px;
+  }
+  .div-5 {
+    position: relative;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    background-color: black !important;
+    margin: 2% 110px 0 0;
+    padding: 25px 35px 25px 35px;
+    font: 400 12px Kharkiv Tone, sans-serif;
+    align-self: end;
+    width: 560px;
+    max-width: 100%;
+    z-index: 1;
+    border: none;
+  }
+  .img-3 {
+    align-self: end;
+    object-fit: cover;
+    width: 100%;
+    height: 470px;
+  }
+  .for-img {
+    display: flex;
+    height:60%;
+    background-image: url(img/spikes.svg);
+    display: flex;
+		flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

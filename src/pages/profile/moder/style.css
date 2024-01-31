@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+.profile-user {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile-menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    max-width: 20%;
+    overflow: visible;
+}
+
+.profile-menu-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-photo {
+    height: 459px;
+    width: 355px;
+    margin-left: 2%;
+    margin-top: 20%;
+    z-index: 1;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.profile-menu-buttons-wrapper .logo {
+    width: 47px;
+    height: 75.89;
+    margin-left: 38px;
+    margin-top: 16.75px;
+    margin-bottom: 50%;
+}
+
+.profile-menu-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-menu-buttons button {
+    border: none;
+    background: transparent;
+    color: white;
+    transform: rotate(-90deg); 
+    cursor: pointer;
+    transform-origin: left bottom;
+    margin: 100%;
+    width: 200px;
+    margin-left: 30%;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.profile-user-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.name-surname {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.non-editable-profile-data {
+    margin-left: 15%;
+    margin-top: 5%;
+    line-height: 1.2;
+}
+.non-editable-profile-data div{
+    margin-bottom: 5%;
+}
+
+
+

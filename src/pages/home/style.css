@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'KharkivTone';
+  src: url('../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+
+.start-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #496b6c, #486466, #465e61, #45575a, #435154, #424d51, #424a4e, #41464a, #424448, #424245, #414042, #403e3f);
+}
+  
+.start-page .overlap {
+  position: absolute;
+  width: 809px;
+   height: 386px;
+  top: 0;
+  left: 0;
+}
+  
+  .start-page .group {
+    position: absolute;
+    width: 308px;
+    height: 297px;
+    top: 0;
+    left: 0;
+    background-image: url(img/vector.svg);
+    background-size: 100% 100%;
+  }
+  
+  .start-page .rectangle {
+    position: absolute;
+    width: 47px;
+    height: 72px;
+    top: 16px;
+    left: 38px;
+    object-fit: cover;
+  }
+  
+  .start-page .p {
+    position: absolute;
+    width: 800px;
+    height: 143px;
+    top: 68%;
+    left: 250px;
+    font-family: "Kharkiv Tone-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    word-wrap: break-word;
+    z-index: 2;
+  }
+  
+  .start-page .text-wrapper {
+    font-family: "Kharkiv Tone-Regular", Helvetica;
+    font-weight: 400;    
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    line-height: 130%;
+  }
+  
+  .start-page .overlap-group-wrapper {
+    position: absolute;
+    width: 346px;
+    height: 49px;
+    top: 390px;
+    left: 250px;
+  }
+  
+  .start-page .overlap-group {
+    position: relative;
+    width: 344px;
+    height: 49px;
+    background-color: black;
+    z-index: 2;
+  }
+  
+  .start-page .text-wrapper-2 {
+    position: absolute;
+    width: 344px;
+    height: 22px;
+    top: 16px;
+    left: 0;
+    font-family: "Kharkiv Tone-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index:1;
+  }
+  
+  .start-page .img {
+    position: fixed;
+    height: 95%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    color: white;
+  }
+  

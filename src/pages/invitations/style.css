@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.user-invitations {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+
+.inv-menu-read {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 13%;
+    justify-content: space-between;
+    background-color: black;
+    width: 20%;
+}
+
+.inv-menu-read button{
+    border: none;
+    background-color: transparent;
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font: 400 20px Kharkiv Tone, sans-serif;
+    color: white;
+    width: 60%;
+    text-align: start;
+    padding: 0;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.pagination {
+    width: 10%;
+    align-self: flex-end;
+    margin-bottom: 2%;
+}
+
+.pagination button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    font: 400 32px Kharkiv Tone, sans-serif;
+    margin-right: 5%;
+}
+
+.content-invitations {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.content-invitations .pagination {
+    margin-top: 2%;
+}
+
+.invitations-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 2%;
+    height: 78%;
+    overflow-y: scroll;
+    width: 90%;
+    margin-right: 2%;
+}
+
+.invitations-item {
+    display: flex;
+    flex-direction: column;
+    text-overflow: ellipsis;
+
+}
+
+.invitations-item span {
+    overflow-x: hidden;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    font-size: 1.5em;
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+
+.invitations-item button{
+    border: none;
+    color: white;
+    width: 157px;
+    height: 31px;
+    margin-bottom: 1%;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.inv-accept-button {
+    background-color: #038C8C;
+}
+
+.inv-decline-button {
+    background-color: #535353;
+}

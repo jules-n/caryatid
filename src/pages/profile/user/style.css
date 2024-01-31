@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+.profile-user {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    max-width: 20%;
+    overflow: visible;
+}
+
+.profile-menu-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-photo {
+    height: 459px;
+    width: 355px;
+    margin-left: 2%;
+    margin-top: 20%;
+    z-index: 1;
+}
+
+.profile-menu-buttons-wrapper .logo {
+    width: 47px;
+    height: 75.89;
+    margin-left: 38px;
+    margin-top: 16.75px;
+    margin-bottom: 50%;
+}
+
+.profile-menu-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-menu-buttons button {
+    border: none;
+    background: transparent;
+    color: white;
+    transform: rotate(-90deg); 
+    cursor: pointer;
+    transform-origin: left bottom;
+    margin: 100%;
+    width: 200px;
+    margin-left: 30%;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.profile-user-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.name-surname {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.non-editable-profile-data {
+    margin-left: 15%;
+    margin-top: 5%;
+    line-height: 1.2;
+}
+.non-editable-profile-data div{
+    margin-bottom: 5%;
+}
+
+.editable-profile-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: -20%;
+}
+
+.wrap-profile-data {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.wrap-profile-data input {
+    border: none;
+    border-bottom: 1.5px solid #535353; /* Adds a solid bottom border - you can change color and thickness */
+    height: 2em; /* Increases the height of the input field */
+    font-size: medium;
+    margin-top: 2%;
+}
+
+.wrap-profile-data input:focus {
+    outline: none;
+}
+
+#prof-linkedin {
+    width: 20px;
+}
+
+.wrap-profile-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 20%;
+    margin-bottom: 2%;
+}
+
+.wrap-profile-contact input:focus {
+    outline: none;
+}
+
+.wrap-profile-contact input {
+    border: none;
+    border-bottom: 1.5px solid #535353; /* Adds a solid bottom border - you can change color and thickness */
+    height: 1em; /* Increases the height of the input field */
+    font-size: medium;
+    margin-left: 2%;
+    width: 20%;
+}
+
+#profile-save {
+    background-color: #038C8C;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 48px;
+    width: 282px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 5%;
+    margin-right: 1.5%;
+    align-self: end;
+}
+
+.wrap-upload-file {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20%;
+    justify-items: end;
+}
+
+#upload-file {
+    background-color: #535353;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 48px;
+    width: 282px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 5%;
+    margin-right: 1.5%;
+    align-self: end;
+}
+
+.wrap-upload-file div {
+    text-align: end;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    font-size: large;
+}

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('../../fonts/Kharkiv\ Tone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.profile-user-read {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: 'KharkivTone', sans-serif;
+}
+
+.profile-menu-read {
+    display: flex;
+    flex-direction: row;
+    height: 12.5%;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.profile-menu-read img {
+    height: 75.89%;
+    margin-top: 0.8%;
+    margin-right: 32px;
+}
+
+#arrow-back {
+    background-image: url('img/arrow.svg'); /* Replace with your image path */
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 4em;
+    width: 5.75em;
+    outline: none;
+    text-indent: -9999px;
+    background-color: transparent;
+    align-self: center;
+    margin-left: 1.5%;
+}
+
+.wrap-applications {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88.5%;
+}
+
+.pagination-applications {
+    width: 10%;
+    align-self: flex-end;
+    margin-bottom: 2%;
+}
+
+.pagination-applications button {
+    padding: 0;
+    margin-right: 3%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font: 400 32px KharkivTone, sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.users-applications-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 70%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.users-applications {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.users-applications span {
+    text-decoration: underline;
+    margin-right: 5%;
+    width: 40%;
+    font: 400 32px KharkivTone, sans-serif;
+    cursor: pointer;
+}
+
+.users-applications button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 31px;
+    width: 157px;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    margin-right: 1.5%;
+}
+
+.users-applications-accept-button {
+    background-color: #038C8C;
+}
+
+.users-applications-decline-button {
+    background-color: #535353;
+}
